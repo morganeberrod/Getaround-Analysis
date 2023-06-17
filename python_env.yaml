@@ -1,0 +1,9 @@
+python: "3.11"
+build_dependencies:
+  - pip
+dependencies:
+  - scikit-learn
+  - pandas
+  - mlflow
+  - xgboost
+  - outliertree

@@ -1,0 +1,6 @@
+fastapi
+mlflow
+pandas
+pydantic
+uvicorn
+xgboost

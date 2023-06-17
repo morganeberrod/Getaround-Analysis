@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/OneDrive%20-%20BIAL-X/PERSO%20-%20Autres/JEDHA/Projets/GETAROUND/mlruns/503086254693232066/466969a87f57491cadd40cea67c57b7a/artifacts
+end_time: 1687027609588
+entry_point_name: ''
+experiment_id: '503086254693232066'
+lifecycle_stage: active
+run_id: 466969a87f57491cadd40cea67c57b7a
+run_name: redolent-jay-172
+run_uuid: 466969a87f57491cadd40cea67c57b7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1687027605457
+status: 4
+tags: []
+user_id: morgane.berrod

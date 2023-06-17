@@ -1,0 +1,8 @@
+fastapi
+mlflow
+outliertree
+pandas
+pydantic
+scikit-learn
+xgboost
+tpot

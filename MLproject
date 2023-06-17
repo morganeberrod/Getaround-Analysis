@@ -1,0 +1,36 @@
+name: GetaroundPricing
+
+python_env: python_env.yaml
+
+entry_points:
+  # Fast training for prototyping.
+  fast_training:
+    experiment-name: fast_training
+    parameters:
+      training_data: {type: string, default: "data/no_outliers.csv"}
+      learning_rate: {type: float, default: 1}
+      n_estimators: {type: int, default: 50}
+      max_depth: {type: int, default: 3}
+      seed: {type: int, default: 1}
+    command: "python src/training.py {training_data}
+                                    --learning_rate {learning_rate}
+                                    --n_estimators {n_estimators}
+                                    --max_depth {max_depth}
+                                    --seed {seed}
+                                    --experiment-id 351747242691598775"
+
+  # Longer training before registering the model.
+  production_training:
+    parameters:
+      training_data: {type: string, default: "data/no_outliers.csv"}
+      learning_rate: {type: float, default: 1e-2}
+      n_estimators: {type: int, default: 5000}
+      max_depth: {type: int, default: 4}
+      seed: {type: int, default: 1}
+    command: "python src/training.py {training_data}
+                                      --learning_rate {learning_rate}
+                                      --n_estimators {n_estimators}
+                                      --max_depth {max_depth}
+                                      --seed {seed}
+                                      --register True
+                                      --experiment-id 980197819695436151"
