@@ -64,19 +64,6 @@ We use FastAPI as our serving tool. It has only one route /prediction, that call
 
 It can either be run with uvicorn, with the command ``` getaround uvicorn main:app --reload ```, or be ran as a container with the Dockerfile present inside the api folder.
 
-## Links 
-
-API : https://mbd-getaround-rental-prices-c2066c4e09b8.herokuapp.com/docs
-
-Web application : https://mbd-getaround-webapp.herokuapp.com/
-
-## Details for certification purpose
-email adress: morgane.berrod@gmail.com
-
-video link: https://share.vidyard.com/watch/qR7L5ozHa6U7y8E2NcmP9y?
 
 ## Authors
 **Morgane BERROD** - [MorganeBD](https://github.com/morganeberrod)
-
-## Acknowledgements
-A big thank you to [Mathieu](https://github.com/M-Garrigues) for his help on this project, especially on the ML part.
